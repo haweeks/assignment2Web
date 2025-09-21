@@ -1,0 +1,114 @@
+* { box-sizing: border-box; }
+body { 
+  margin:0; 
+  font-family: Arial, Helvetica, sans-serif; 
+  background: #ffeef6; /* мягкий розовый фон */
+  color:#2a0f1d;       /* глубокий винно-сливовый для текста */
+}
+header { 
+  background:#2a0f1d; /* тёмный розово-винный */
+  color:#ffeef6; 
+  text-align:center; 
+  padding: 20px; 
+}
+#page-title { letter-spacing: .3px; }
+
+/* Navbar */
+.navbar { 
+  background: #1a0b15; 
+  padding: 10px 16px; 
+}
+.navbar a { 
+  display:inline-block; 
+  color:#ffeef6; 
+  text-decoration:none; 
+  margin-right:10px; 
+  padding:8px 12px; 
+  border-radius: 10px; 
+  border:1px solid #3b1d2c; 
+}
+.navbar a.active { 
+  background:#cbaac5; /* приглушённый розово-серый */
+  color:#1a0b15; 
+}
+.navbar a:hover { 
+  background:#2a0f1d; 
+  transition:.15s; 
+}
+
+/* Контент */
+.wrap { 
+  max-width: 1000px; 
+  margin: 18px auto; 
+  padding: 0 16px; 
+  display:grid; 
+  gap: 16px; 
+}
+.card { 
+  background:#fff5fa; 
+  border:1px solid #f5b5c4; 
+  border-radius: 12px; 
+  padding: 16px; 
+  box-shadow: 0 6px 16px rgba(0,0,0,.06); 
+}
+
+/* Table */
+table { 
+  width:100%; 
+  border-collapse: collapse; 
+}
+th, td { 
+  border:1px solid #f5b5c4; 
+  padding:10px 12px; 
+  text-align:center; 
+}
+thead th { 
+  background:#fce6ef; 
+}
+tbody tr:nth-child(even) { 
+  background:#fff5fa; 
+}
+.highlight-row { 
+  background:#fcd5e5; /* нежный выделяющийся розовый */
+}
+
+/* Form */
+.feedback-form { 
+  width: 520px; 
+  max-width: 100%; 
+  margin: 0 auto; 
+  background:#fff5fa; 
+  padding: 16px; 
+  border-radius: 12px; 
+  border:1px solid #f5b5c4; 
+}
+.field { 
+  display:block; 
+  margin-bottom: 12px; 
+}
+label { 
+  display:block; 
+  margin-bottom: 6px; 
+  color:#2a0f1d; 
+}
+input[type="text"], input[type="email"], select, textarea { 
+  width:100%; 
+  padding:10px 12px; 
+  border:1px solid #cbaac5; 
+  border-radius: 10px; 
+  background:#fff; 
+  color:#2a0f1d; 
+}
+.wide-control { width:100%; }
+#send-btn { 
+  display:inline-block; 
+  background:#e88da2; 
+  color:white; 
+  border:none; 
+  padding:10px 16px; 
+  border-radius:10px; 
+  cursor:pointer; 
+}
+#send-btn:hover { 
+  filter: brightness(1.08); 
+}
