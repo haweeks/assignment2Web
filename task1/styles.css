@@ -12,7 +12,6 @@ body {
   color: #ffeef6;     
   padding: 20px; 
   text-align: center; 
-  box-shadow: 0 4px 12px rgba(0,0,0,.35);
 }
 #header h1 { margin: 0; }
 
@@ -53,7 +52,6 @@ body {
   padding: 16px; 
   border:1px solid #f5b5c4; 
   border-radius: 12px; 
-  box-shadow: 0 6px 16px rgba(0,0,0,.06); 
 }
 #sidebar h3 { margin-top: 0; }
 #sidebar ul { list-style: square inside; padding-left: 0; }
